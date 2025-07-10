@@ -1,5 +1,7 @@
 # Chervinsky Sergey
 
+![Cyberpunk](../rsschool-cv/imgs/photo_2025-02-12_18-42-37.jpg)
+
 ## Contact Information: 
 
 **Phone:** +375 (29) 111-11-11  
