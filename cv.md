@@ -6,6 +6,7 @@
 
 **Phone:** +375 (29) 111-11-11  
 **E-mail:** sergey25101999@gmail.com  
+**Discord:** lxxxFOXxxxl
 [GitHub](https://github.com/lxxxFOXxxxl)
 
 ## About Me: 
