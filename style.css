@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Libertinus Mono", monospace;
+  font-weight: 400;
+  font-style: normalж;
+}
+
+h2 {
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  border-bottom: solid rgb(159, 159, 159) 1px;
+}
+
+body {
+  background-color: rgb(31, 31, 31);
+  color: rgb(226, 226, 226);
+}
+
+.container {
+  width: 80%;
+  min-width: 400px;
+  margin: 0 auto;
+}
+
+.container p {
+  margin-left: 20px;
+}
+
+.unstyleList {
+  margin-left: 20px;
+}
+
+.unstyleList li {
+  list-style: none;
+}
+
+.bold_text {
+  font-weight: 600;
+}
+
+.mt_20 {
+  margin-top: 20px;
+}
+
+.mb_10 {
+  margin-bottom: 10px;
+}
+
+ol {
+  margin-left: 50px;
+}
+
+code {
+  color: #c7254e;
+  /* background-color: #59595997 !important; */
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.language-javascript {
+  border-radius: 10px;
+  padding: 10px !important;
+}
