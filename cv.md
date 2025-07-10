@@ -19,16 +19,29 @@ Hello! I work in sales and talk to people every day — I like it because I get 
 
 ## Code Example: 
 
-Function that returns even numbers
+**Task from Codewars:** The Western Suburbs Croquet Club has two categories of membership, Senior and Open. They would like your help with an application form that will tell prospective members which category they will be placed.
+
+To be a senior, a member must be at least 55 years old and have a handicap greater than 7. In this croquet club, handicaps range from -2 to +26; the better the player the lower the handicap.
+
+Input
+Input will consist of a list of pairs. Each pair contains information for a single potential member. Information consists of an integer for the person's age and an integer for the person's handicap.
+
+Output
+Output will consist of a list of string values (in Haskell and C: Open or Senior) stating whether the respective member is to be placed in the senior or open category.
 
 ```JS 
-const sortingEvenNumbers = (data) => data.filter((element) => typeof element === 'number' && !(element % 2));
+function openOrSenior(data){
+  return data.map((element) => {
+    return (element[0] >= 55 && element[1] >7) ? 'Senior' : 'Open';
+  })
+}
 ```
 
 ## Practical Tasks: 
 
 * Cyberpunk website layout [Design](https://www.figma.com/design/cyOuCcxqhxwqCrillGbcFm/Cyberpunk?node-id=0-1&p=f) only for desktop (Done);
 ![Cyberpunk](../rsschool-cv/imgs/hero.jpg)
+
 * RumTibet website layout [Design](https://www.figma.com/file/NrPZZU8u1sLytOicIHcIAx/%D0%A0%D1%83%D0%BC%D0%A2%D0%B8%D0%B1%D0%B5%D1%82?type=design&node-id=0-1&mode=design&t=apziinh4RtDEQTpG-0) for desktop and mobile version (in progress);
 ![RumTibet](../rsschool-cv//imgs/RumTibet1.jpg)
 
